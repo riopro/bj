@@ -145,7 +145,7 @@ class Bj
             :tag => "",
             :is_restartable => true,
             :submitter => Bj.hostname,
-            :submitted_at => Time.now, 
+            :submitted_at => Time.now.utc, 
           }
         end
       end
